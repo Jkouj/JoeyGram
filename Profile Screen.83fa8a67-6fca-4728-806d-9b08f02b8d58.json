@@ -55,6 +55,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-2365696652505172/6777050006",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "83fa8a67-6fca-4728-806d-9b08f02b8d58",
+                "Y": 0,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "position": "absolute",
+                "edgeOffsets": 0,
+                "style": {
+                    "position": "absolute",
+                    "left": "40.666666666666664%",
+                    "top": "14.711394302848575%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "e62c9322-dd7f-4d39-8265-1f27becf217e",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -176,7 +206,7 @@
             "properties": {
                 "Height": 82,
                 "Width": 379,
-                "Visible": true,
+                "Visible": false,
                 "X": -4,
                 "Y": 498,
                 "RelativeX": -4,
@@ -192,7 +222,7 @@
                     "position": "absolute",
                     "left": "4.581529241967871%",
                     "top": "75.89012591140404%",
-                    "display": "flex"
+                    "display": "none"
                 },
                 "resizeMode": "contain"
             },
@@ -585,7 +615,7 @@
             "properties": {
                 "Height": 75,
                 "Width": 380,
-                "Visible": true,
+                "Visible": false,
                 "X": 0,
                 "Y": 121,
                 "RelativeX": 0,
@@ -601,7 +631,7 @@
                     "position": "absolute",
                     "left": "30.266666666666666%",
                     "top": "7.975309220389805%",
-                    "display": "flex"
+                    "display": "none"
                 },
                 "resizeMode": "contain"
             },
